@@ -1,0 +1,35 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <script language="javascript" type="text/javascript" src="libraries/p5.js"></script>
+  <!-- uncomment lines below to include extra p5 libraries -->
+  <script language="javascript" src="libraries/p5.dom.js"></script>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js'></script>
+<div id="instr">
+    <h1> SDT Excercise - version 3</h1>
+    <h2>Instructions</h2>
+    <p> This exercise is designed to allow you to collect data under a specific signal-to-noise ratio. <br> 
+        <ul>
+            <li>When you click on the 'Start' button below, the screen will change and you will see a 'Response' button in the center at the bottom of the screen.</li>
+            <li>A timer will be displayed next to it, showing you the time in seconds out of the total. This exercise will last for 1800 seconds (i.e., 30 minutes).</li>
+            <li><strong>Before beginning, make sure you have enough time to finish.</strong> You can Pause the program, and hit play once you are ready to resume.</li>
+            <li>The screen will display 3 elements at a time for approximately 1 second and then they will disappear and the next set of 3 will appear.</li>
+            <li>Any time during the 1800 seconds that you see the letter Y on the screen press the response button.</li>
+            <li>When the counter gets to 1800, the program will stop. Click on the Analyze button.</li>
+        </ul>      
+    </p>
+    Student Name: <input id='studentname'><br>
+    School Email ID: <input id='studentemail'>
+    <br><button class='start' style='height:30px; weight=100px;'> Start </button>
+</div>
+
+  <!--<script language="javascript" src="libraries/p5.sound.js"></script>-->
+  <script language="javascript" type="text/javascript" src="sketch.js"></script>
+  <div class='results'> </div>
+  <!-- this line removes any default padding and style. you might only need one of these values set. -->
+  <!--<style> body {padding: 0; margin: 0;} </style> -->
+</head>
+
+<body>
+</body>
+</html>
